@@ -1,0 +1,120 @@
+.logement {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.leftBlock {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.6rem;
+  color: #ff6060;
+  margin-bottom: 0.5rem;
+}
+
+.location {
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.rightBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.topRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.hostNameBlock {
+  display: flex;
+  flex-direction: column;
+  color: #ff6060;
+  margin-right: 0.5rem;
+  text-align: right;
+}
+
+.hostPictureBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hostPicture {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.ratingBlock {
+  margin-top: 0.5rem;
+}
+
+.collapseSection {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.collapseWrapper {
+  flex: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .logement {
+    padding: 0.5rem;
+  }
+
+  .topSection {
+    flex-direction: column;
+  }
+  
+
+  .rightBlock {
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    flex:1;
+    justify-content: space-between;
+    align-items:center ;
+    padding-left: 25px;
+    text-align: right;
+  }
+
+  .collapseSection {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .ratingBlock {
+    padding-right: 25px;
+  }
+}

@@ -1,0 +1,25 @@
+.home {
+    margin: 2rem auto;
+    max-width: 1200px;
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    .cardsContainer {
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .cardsContainer {
+      grid-template-columns: 1fr;
+    
+    }
+    .home {
+      margin: 10px ;
+      max-width: 768px;
+      padding: 0;
+      
+    }
+  }
