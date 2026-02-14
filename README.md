@@ -30,7 +30,7 @@ my-react-app
 
 1. Clonez le dépôt
 
-git clone <URL_DU_DEPOT>
+git clone https://github.com/nielstsak/Kasa_project.git
 cd my-react-app
 
 2. Installez les dépendances
@@ -103,5 +103,6 @@ Gestion des états internes grâce aux Hooks React (useState, useEffect, etc.)
 Docker pour garantir une facilité de déploiement et une cohérence des environnements
 
 📝 Auteur
+
 
  Tsakiris Niels   
